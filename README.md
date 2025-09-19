@@ -34,8 +34,8 @@ The project demonstrates modern full-stack + LLM integration, including backend 
 
 Option 1: Try Live Demo on Render
 
-    - Frontend: [https://chatbot-full-stack-llm-frontend.onrender.com](https://chatbot-full-stack-llm-frontend.onrender.com)  
-    - Backend: [https://chatbot-full-stack-llm.onrender.com](https://chatbot-full-stack-llm.onrender.com)
+- [Frontend Live Demo](https://chatbot-full-stack-llm-frontend.onrender.com)  
+- [Backend API](https://chatbot-full-stack-llm.onrender.com)  
 
 Option 2: Run Locally with Docker Compose
 
