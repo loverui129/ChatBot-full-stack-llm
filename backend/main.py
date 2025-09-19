@@ -9,7 +9,10 @@ app = FastAPI()
 # CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=[
+        "http://localhost:5173",  # local
+        "https://chatbot-full-stack-llm-frontend.onrender.com"  # render frontend
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
