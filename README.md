@@ -1,10 +1,10 @@
-🤖 ChatBot Full-Stack LLM
+## 🤖 ChatBot Full-Stack LLM
 
 A full-stack AI chatbot application built with FastAPI (backend) and React + Vite (frontend), powered by PostgreSQL for persistence and integrated with the OpenAI API for intelligent responses.
 
 The project demonstrates modern full-stack + LLM integration, including backend API development, frontend UI, database connection, containerization with Docker, and deployment to the cloud (Render).
 
-✨ Features
+## ✨ Features
     
     🔹 Backend: FastAPI with REST endpoints (/ask, /upload)
     
@@ -18,7 +18,7 @@ The project demonstrates modern full-stack + LLM integration, including backend 
     
     🔹 CI/CD: GitHub Actions pipeline for automated build & deploy
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
     Frontend: React + Vite + TailwindCSS
     
@@ -30,7 +30,7 @@ The project demonstrates modern full-stack + LLM integration, including backend 
     
     Infrastructure: Docker, Render(Cloud Deployment), GitHub Actions
 
-🚀 How to Run the Project
+## 🚀 How to Run the Project
 
 Option 1: Try Live Demo on Render
 
