@@ -11,7 +11,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",  # local
-        "https://chatbot-full-stack-llm-frontend.onrender.com"  # render frontend
+        "https://chatbot-full-stack-llm-frontend.onrender.com",  # render frontend
         "https://chatbot-full-stack-llm.onrender.com",  # backend render
     ],
     allow_credentials=True,
