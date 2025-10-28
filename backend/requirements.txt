@@ -1,8 +1,9 @@
 fastapi
 uvicorn
 openai  
-langchain 
-langchain-community
+langchain==0.1.14
+langchain-community==0.0.29
+langchain-openai==0.0.8
 faiss-cpu
 python-multipart
 pydantic
