@@ -1,6 +1,6 @@
 from sqlalchemy import Column,Integer,String,DateTime
 from datetime import datetime
-from backend.database.connection import Base
+from database.connection import Base
 
 class Document(Base):
     __tablename__ = "documents"
