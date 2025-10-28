@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from backend.routers import chat,upload
+from routers import chat,upload
 from fastapi.middleware.cors import CORSMiddleware
-from backend.database.init_db import init_db  
+from database.init_db import init_db  
 
 # Initialize database
 init_db()
