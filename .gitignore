@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Environment
+.env
+
+# Docker
+postgres_data/
+*.log
+
+# macOS
+.DS_Store
