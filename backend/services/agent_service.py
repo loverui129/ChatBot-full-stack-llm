@@ -1,6 +1,6 @@
 from langchain.agents import initialize_agent
 from langchain_openai import ChatOpenAI
-from backend.services.tools_service import register_tools
+from services.tools_service import register_tools
 import os
 from dotenv import load_dotenv
 
