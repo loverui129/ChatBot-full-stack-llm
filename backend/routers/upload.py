@@ -1,10 +1,10 @@
 from fastapi import APIRouter, UploadFile, File, Depends
 from sqlalchemy.orm import Session
-from backend.database.connection import SessionLocal
-from backend.models.document import Document
+from database.connection import SessionLocal
+from models.document import Document
 import os
 from langchain_core import vectorstores
-from backend.services.file_service import parse_file
+from services.file_service import parse_file
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
