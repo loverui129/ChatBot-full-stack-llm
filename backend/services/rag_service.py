@@ -3,7 +3,7 @@ from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 
-from backend.routers.ask import VECTOR_DIR
+from routers.ask import VECTOR_DIR
 
 
 VECTOR_DIR="backend/vectorstore"
