@@ -1,6 +1,6 @@
 import axios from "axios"; //Frontend uses Axios to call backend API
 
-const API_URL = "http://localhost:8000";
+const API_URL = import.meta.env.VITE_API_URL;
 
 
 // Send user's question to the backend /chat endpoint
