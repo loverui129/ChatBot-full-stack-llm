@@ -1,6 +1,6 @@
     import axios from "axios"; // Axios for frontend HTTP requests
 
-    const API_URL = "http://127.0.0.1:8000";
+    const API_URL = import.meta.env.VITE_API_URL;
 
     // Upload file to backend /upload endpoint
     export async function uploadFile(file: File) {  
