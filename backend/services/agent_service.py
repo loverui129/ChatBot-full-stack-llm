@@ -1,4 +1,4 @@
-from langchain.agents import create_react_agent, AgentExecutor
+from langchain.agents import AgentExecutor
 from langchain import hub
 from langchain_openai import ChatOpenAI
 from services.tools_service import register_tools
@@ -20,9 +20,9 @@ tools = register_tools()
 
 # Initialize LangChain Agent
 prompt = hub.pull("hwchase17/react")
+from langchain.agents import create_react_agent
 agent = create_react_agent(llm, tools, prompt)
 agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
-
 
 # unified interface
 def run_agent(query: str) -> str: # accept NLP-> The agent automatically determines and calls the appropriate tool
