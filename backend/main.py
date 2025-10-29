@@ -10,7 +10,7 @@ app = FastAPI() # # Create FastAPI app
 # Enable CORS for frontend (React/Vite)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://chatbot-full-stack-llm-frontend.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
